@@ -1,0 +1,132 @@
+@import './colors.module.scss';
+.logoX{
+    transition: all .3s ease-in-out;
+}
+
+.logo{
+    &:hover{
+      .logoX{
+        transform: rotate(45deg);
+      }
+    }
+}
+
+.link{
+    @apply text-sm;
+    opacity: 0;
+    position: relative;
+    color: $primary-text-color;
+    height: fit-content;
+    padding: 0.4em 0.8em;
+    border-radius: 0.3em;
+    transition: all 0.3s cubic-bezier(1, -0.05, 0.77, 1.04) ; 
+    
+
+    &:before{
+        content: '';
+        height: 0.15em;
+        width: 0.4em;
+        border-radius: 1em;
+        background: $primary-color;
+        position: absolute;
+        bottom: -0.5em;
+        left: 50%;
+        transform: translate(-50%);
+        transition: all 0.2s cubic-bezier(1, -0.05, 0.77, 1.04); 
+    }
+
+    &:hover{
+        background-color: $transparency-color;
+        &:before{
+            width: 90%;
+            box-shadow: transparentize($primary-color, $amount: 0.4)  0px -7px 20px 1px;
+        }
+    }
+}
+
+.bar{
+    border-bottom: 1px solid $transparency-color;
+    background-color: transparentize($background-color, 0.7);
+    position: sticky;
+    top: 0;
+}
+
+.curriculum{
+    background-color: transparent;
+    color: $primary-text-color;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.1s ease-in-out;
+    border: 1px solid $primary-color;
+    &:hover{
+        background-color: transparentize($primary-color, 0.9);
+        color: $primary-color;
+        transform: scale(1.05);
+    }
+
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+
+.active {
+    .hamburguer{
+        &{
+            background-color: transparent;
+        }
+
+        &::after{
+            top: -5px;
+            transform: rotate(45deg);
+        }
+        &::before{
+            top: -1px;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.mobile{
+    background-color: transparentize($background-color, 0.6);
+    width: 80vw;
+    height: 92vh;
+    position: fixed;
+    right: -100%;
+    top: 72px;
+    padding: 30px;
+    z-index: 30;
+    border-left: 1px solid $transparency-color;
+    transition: all 0.3s ease-in-out;
+    &.on{
+        right: 0;
+    }
+
+}
+
+
+.hamburguer{
+    position: relative;
+    &, &::before, &::after{
+        width: 30px;
+        height: 4px;
+        border-radius: 4px;
+        background-color: $primary-color;
+        position: relative;
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &::after{
+        content: '';
+        top: -14px;
+    }
+    &::before{
+        content: '';
+        top: 10px;
+    }
+
+}

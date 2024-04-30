@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   const changeMode = () => {
@@ -18,6 +19,8 @@ export default function Home() {
 
         <meta charSet="utf-8" />
       </Head>
+      <Navbar />
+      
     </>
   );
 }
