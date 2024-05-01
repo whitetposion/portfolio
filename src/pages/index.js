@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Navbar from "@/pages/components/Navbar";
 import Header from "@/pages/components/Header";
-import About from "./components/About";
+import About from "@/pages/components/About";
+import Knowledge from "@/pages/components/Knowledge";
 
 export default function Home() {
   const changeMode = () => {
@@ -26,6 +27,7 @@ export default function Home() {
         <div className="md:mt-48 mt-24 mx-auto xl:max-w-6xl lg:max-w-5xl md:max-w-3xl md:px-4 px-6 w-full sm:px-6 lg:px-8 relative">
         <Header />
         <About/>
+        <Knowledge/>
         </div>
         
       </main>

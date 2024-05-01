@@ -1,0 +1,68 @@
+@import './colors.module.scss';
+
+.box{
+    background: transparentize($primary-color, 0.98);
+    &::before{
+        content: '';
+        position: absolute;
+        left: -6em;
+        bottom: -8em;
+        background: $primary-color;
+        opacity: 0.15;
+        z-index: 0;
+        width: 60%;
+        height: 60%;
+        border-radius: 5em;
+        filter: blur(15em);
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        right: -16em;
+        top: -12em;
+        background: $primary-color;
+        opacity: 0.15;
+        z-index: 0;
+        width: 60%;
+        height: 60%;
+        border-radius: 5em;
+        filter: blur(15em);
+    }
+}
+
+.technology{
+    @apply rounded-lg md:py-3 py-2 md:px-6 px-4 w-max flex items-center justify-center ;
+    border: 1px solid transparentize($primary-color, 0.9);
+    z-index: 2;
+    background-color: transparentize($background-color, $amount: 0.2);
+    cursor: pointer;
+    transition: 250ms;
+    &:hover{
+        z-index: 3;
+        box-shadow: transparentize($primary-color, 0.9) 0px 5px 45px -10px;
+        p{
+            @apply text-primary
+        }
+    }
+    p{
+        @apply ml-3 mt-0 text-white text-secondary md:text-base text-sm;
+    }
+}
+
+.triangle{
+    height: fit-content;
+    width: fit-content;
+    right: -15em;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
