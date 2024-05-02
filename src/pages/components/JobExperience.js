@@ -61,7 +61,7 @@ export default function JobExperience() {
         <>
             <h3 className="md:text-xl text-lg font-semibold mb-1">
                 {experience[activeTab].name} 
-                <span className="ml-2 text-tertiary">@{experience[activeTab].title}</span>
+                <span className="ml-2 text-tertiary">@ {experience[activeTab].title}</span>
             </h3>
             <span className="text-sm text-secondary">{experience[activeTab].period}</span>
             <ul className="mt-10">

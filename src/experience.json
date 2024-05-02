@@ -2,7 +2,7 @@
     
   {
     "name": "Awesomesuite",
-    "role": "Frontend Developer",
+    "title": "Frontend Developer",
     "period": "July 2023 - Present",
     "responsibilities": [
       " Awesome social - Media Scheduler Tool: Created custom pure and memoize components and click tracker for products. Implemented suspense loading over the routes and their subcomponent with fallback UI making the website lighter. Integrated feature for pdf rendering, through integrating hook and canvas and applying dynamic page rendering. Implemented communication between parent window and iFrame Worked on libraries like react big calendar, JSS, learned state management in redux.",

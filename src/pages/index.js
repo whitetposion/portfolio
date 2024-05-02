@@ -4,6 +4,7 @@ import Header from "@/pages/components/Header";
 import About from "@/pages/components/About";
 import Knowledge from "@/pages/components/Knowledge";
 import Experience from "@/pages/components/JobExperience";
+import Projects from "@/pages/components/Projects";
 
 export default function Home() {
   const changeMode = () => {
@@ -30,6 +31,7 @@ export default function Home() {
         <About/>
         <Knowledge/>
         <Experience/>
+        <Projects/>
         </div>
         
       </main>
