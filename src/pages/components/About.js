@@ -64,7 +64,7 @@ export default function About() {
       <div className="md:mt-20 mt-10 md:grid grid-flow-col grid-cols-3">
         <div className="md:col-span-2">
           <p className="text-secondary leading-relaxed">
-          Hello! 👋 I'm Abhishek Purohit, a Mumbai-based BE graduate fueled by innovation. As a Frontend Developer, 
+          Hello! 👋 I&apos;m Abhishek Purohit, a Mumbai-based BE graduate fueled by innovation. As a Frontend Developer, 
           I bring hands-on experience on React, Redux and various libraries.
           </p>
 
@@ -79,7 +79,7 @@ export default function About() {
           <div className="mt-4 text-secondary leading-relaxed">
           
             <h4 className={`${styles.about_title}`}>Front-end libraries:</h4>
-            Shadcn, Acceternity UI, Material UI, and Tailwind CSS. I'm all about making slick and user-friendly interfaces from design concepts. Troubleshooting and optimizing performance are my jam, ensuring top-notch frontend solutions. 
+            Shadcn, Acceternity UI, Material UI, and Tailwind CSS. I&apos;m all about making slick and user-friendly interfaces from design concepts. Troubleshooting and optimizing performance are my jam, ensuring top-notch frontend solutions. 
           </div>
           
           <div className="mt-4 text-secondary leading-relaxed mb-4">
