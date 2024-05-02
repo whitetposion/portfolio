@@ -1,0 +1,14 @@
+[
+    
+  {
+    "name": "Awesomesuite",
+    "role": "Frontend Developer",
+    "period": "July 2023 - Present",
+    "responsibilities": [
+      " Awesome social - Media Scheduler Tool: Created custom pure and memoize components and click tracker for products. Implemented suspense loading over the routes and their subcomponent with fallback UI making the website lighter. Integrated feature for pdf rendering, through integrating hook and canvas and applying dynamic page rendering. Implemented communication between parent window and iFrame Worked on libraries like react big calendar, JSS, learned state management in redux.",
+      " Dial - a cloud communication Saas. : Business and personal calling service with help of Twilio library, worked on Web hooks, Websocket , WebRTC. OAuth window management, Recharts for data representation and custom audio player components. Multi-Level user access management, Revised In-house component library. Developed React native app of essentials feature of this web app in typescript"
+    ]
+  }
+    
+]
+  

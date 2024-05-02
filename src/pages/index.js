@@ -3,6 +3,7 @@ import Navbar from "@/pages/components/Navbar";
 import Header from "@/pages/components/Header";
 import About from "@/pages/components/About";
 import Knowledge from "@/pages/components/Knowledge";
+import Experience from "@/pages/components/JobExperience";
 
 export default function Home() {
   const changeMode = () => {
@@ -28,6 +29,7 @@ export default function Home() {
         <Header />
         <About/>
         <Knowledge/>
+        <Experience/>
         </div>
         
       </main>
