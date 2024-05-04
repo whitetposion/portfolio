@@ -5,6 +5,8 @@ import About from "@/pages/components/About";
 import Knowledge from "@/pages/components/Knowledge";
 import Experience from "@/pages/components/JobExperience";
 import Projects from "@/pages/components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const changeMode = () => {
@@ -27,14 +29,15 @@ export default function Home() {
       <Navbar />
       <main className="overflow-hidden pb-10 w-full relative">
         <div className="md:mt-48 mt-24 mx-auto xl:max-w-6xl lg:max-w-5xl md:max-w-3xl md:px-4 px-6 w-full sm:px-6 lg:px-8 relative">
-        <Header />
-        <About/>
-        <Knowledge/>
-        <Experience/>
-        <Projects/>
+          <Header />
+          <About/>
+          <Knowledge/>
+          <Experience/>
+          <Projects/>
         </div>
-        
+        <Contact/>
       </main>
+      <Footer/>
     </>
   );
 }
