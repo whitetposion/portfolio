@@ -4,7 +4,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import User from "./icons/user";
 import Image from "next/image";
-import me from "/public/me.jpg";
+import me from "/public/me.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
