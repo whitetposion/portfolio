@@ -1,14 +1,43 @@
 [
-    
+  {
+    "name": "Compra",
+    "title": "Founding Engineer",
+    "period": "May 2025 - Present",
+    "responsibilities": [
+      "Engineered a post-purchase survey application for Shopify with dynamic order and customer targeting, an in-app survey builder, and live design customization previews.",
+      "Implemented complex logical branching at the survey level to enable highly personalized response flows.",
+      "Developed on-site behavioral surveys using event triggers such as exit intent, cart actions, scroll depth, session duration, and PDP dwell time to maximize insights with minimal customer friction.",
+      "Built a comprehensive analytics dashboard to visualize survey performance and support data-driven decisions.",
+      "Integrated a third-party billing system with feature gating and usage-based access restrictions."
+    ]
+  },
+  {
+    "name": "Precize",
+    "title": "Frontend Developer",
+    "period": "July 2024 - April 2025",
+    "responsibilities": [
+      "Migrated the landing page from Next.js 12 to Next.js 15, adopting modern best practices and improving overall performance.",
+      "Built and maintained a CMS managing 350+ news and blog posts, integrating Tiptap for rich-text editing and streamlined publishing workflows.",
+      "Rebuilt the dashboard UI by optimizing 40+ tables and 40+ forms using TypeScript, TanStack Query, Yup, and Formik.",
+      "Developed shared, cross-platform UI components for the React Native application.",
+      "Standardized frontend patterns and improved component reusability across the landing page, web app, and internal dashboards.",
+      "Implemented automated Slack build alerts using AWS Amplify, SNS, and Lambda."
+    ]
+  },
   {
     "name": "Awesomesuite",
     "title": "Frontend Developer",
-    "period": "July 2023 - Present",
+    "period": "July 2023 - June 2024",
     "responsibilities": [
-      " Awesome social - Media Scheduler Tool: Created custom pure and memoize components and click tracker for products. Implemented suspense loading over the routes and their subcomponent with fallback UI making the website lighter. Integrated feature for pdf rendering, through integrating hook and canvas and applying dynamic page rendering. Implemented communication between parent window and iFrame Worked on libraries like react big calendar, JSS, learned state management in redux.",
-      " Dial - a cloud communication Saas. : Business and personal calling service with help of Twilio library, worked on Web hooks, Websocket , WebRTC. OAuth window management, Recharts for data representation and custom audio player components. Multi-Level user access management, Revised In-house component library. Developed React native app of essentials feature of this web app in typescript"
+      "Improved application performance through code-splitting, build-size reduction, and rendering optimizations for Awesome Social, a media scheduling platform.",
+      "Implemented a custom PDF generation hook with on-demand page rendering for exports and reports.",
+      "Built robust parent–iFrame communication layers to support embedding across internal applications.",
+      "Developed an interactive drag-and-drop post timeline calendar using React Big Calendar for seamless content scheduling.",
+      "Built a web-based calling platform for Dial, a cloud communication SaaS, using Twilio with WebSockets and WebRTC for low-latency voice communication.",
+      "Implemented secure OAuth window flows and role-based access control (RBAC) for agents, managers, and admins.",
+      "Developed call analytics dashboards using Recharts to track call logs, agent performance, and conversion metrics.",
+      "Shipped core communication and monitoring features in a React Native + TypeScript mobile application.",
+      "Built and published a private component library with 30+ reusable React components using JSS and Sass."
     ]
   }
-    
 ]
-  
